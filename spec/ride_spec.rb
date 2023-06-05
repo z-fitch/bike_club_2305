@@ -13,5 +13,8 @@ RSpec.describe Ride do
     expect(ride1.terrain).to eq(:hills)
     expect(ride1.loop?).to eq(false)
     expect(ride1.total_distance).to eq(21.4)
+
+
+    
   end
 end
